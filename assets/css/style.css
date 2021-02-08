@@ -1,0 +1,51 @@
+body{
+    
+    background-image: linear-gradient(to top, #ff7c00, #ff6426, #fe4b3b, #f7314d, #eb125d);
+}
+
+/********************************** Formulaire */
+h1 span{
+    color: yellow;
+}
+.circle{
+
+    width: 150px;
+    /* border: 2px solid black; */
+    background-color: lightgreen;
+}
+.obligation{
+    color: red;
+    font-size: xx-small;
+    margin-bottom: 0.2rem;
+}
+
+/***************************** User information */
+#user_information_div{
+    height: 92vh;
+}
+
+/**************************************** Lovers */
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+    }
+}
